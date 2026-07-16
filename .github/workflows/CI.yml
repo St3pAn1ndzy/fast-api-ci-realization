@@ -14,6 +14,6 @@ jobs:
       - name: Black check
         run: black --check --diff .
       - name: Isort check 
-        run: isort --check-only --diff --profile black .
+        run: isort --check-only --diff .
       - name: Flake8 check
         run: flake8 .
