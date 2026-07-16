@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install requierements
-        run: pip install -r requierements.txt
+        run: pip install -r requirements.txt
       - name: Mypy check
         run: mypy
       - name: Black check
