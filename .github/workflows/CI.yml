@@ -10,7 +10,7 @@ jobs:
       - name: Install requierements
         run: pip install -r requirements.txt
       - name: Mypy check
-        run: mypy
+        run: mypy .
       - name: Black check
         run: black --check --diff
       - name: Isort check
