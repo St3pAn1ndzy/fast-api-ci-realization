@@ -3,7 +3,7 @@ from database import Base
 
 
 class RecipeOrm(Base):
-    __tablename__ = 'recipes'
+    __tablename__ = "recipes"
 
     id: Mapped[int] = mapped_column(primary_key=True)
     name: Mapped[str] = mapped_column(index=True)
